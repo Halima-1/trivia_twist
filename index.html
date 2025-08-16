@@ -6,15 +6,32 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     body { font-family: Arial, sans-serif; }
-    #nextBtn { margin-top: 15px; padding: 10px; cursor: pointer; }
   </style>
 </head>
 <body>
 <main>
-    <div id="quiz-container">
-        <h3 id="question">Question will appear here</h2>
+<div id="intro" class="show">
+  <div class="logo" ><h3>TriviaTwist Quiz app</h3></div>
+<b>Game rules:</b>
+  <ul >
+    
+    <li>⏱ You have 20 minutes to answer all 50 questions.</li>
+    <li>✅ Once you select an answer, you cannot change it.</li>
+    <li>🎯 Each correct answer gives you 1 point. No negative marking.</li>
+    <li>⏩ Use the Next button to move to the next question.</li>
+    <li>🛑 The quiz will end automatically when the timer runs out</li>
+    <li>🏆 Your final score will be displayed at the end.</li>
+  </ul>
+  <button id="displayQuiz">Start Quiz</button>
+</div>
+    <div id="quiz-container" class="hide">
+      <div class="logo" ><h3>TriviaTwist</h3> <p id="time"></p></div>
+        <div id="question">Question will appear here</div>
         <div id="options"></div>
+        <div class="btn">
+            <button id="prevBtn">Previous</button>
         <button id="nextBtn">Next</button>
+        </div>
         <p id="score"></p>
       </div>
     

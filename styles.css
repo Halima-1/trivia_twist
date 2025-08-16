@@ -4,18 +4,86 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(224, 187, 93);
+}
+
 #quiz-container {
     width: 400px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    background-color: white;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid blue;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+
+}
+
+#intro {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#intro:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#intro button {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+/* #intro button {} */
+
+ul {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .option {
     display: block;
     margin: 10px 0;
     cursor: pointer;
+}
+
+#options button:hover {
+    background-color: rgb(72, 72, 243);
 }
 
 #options {
@@ -34,10 +102,49 @@
     /* text-align: center; */
 }
 
-.time {
-    margin-left: 230px;
-    margin-bottom: 20px;
-    background-color: rgb(139, 139, 182);
-    padding: 6px;
+#time {
+    /* margin-left: 230px; */
+    /* margin-bottom: 20px; */
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px;
     border-radius: 10px;
+    /* width: 50%; */
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#nextBtn,
+#prevBtn {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#question {
+    width: 80%;
+    margin: auto;
+
+}
+
+#question div {
+    width: 70%;
+    margin: auto;
+}
+
+#question img {
+    width: 160px;
+    height: 160px;
 }
