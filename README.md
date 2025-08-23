@@ -1,4 +1,9 @@
 # trivia_twist
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 159b3aec1d8eee2a02d394db013f9c2b9cc64878
 Trivia Twist
 
 Trivia Twist is a fun, interactive quiz app designed to challenge users with multiple-choice questions across various topics. It features a timer, scoring system, and a user-friendly interface to make learning and testing knowledge enjoyable.
@@ -29,10 +34,18 @@ Clone the repository:
 
 git clone https://github.com/your-username/trivia-twist.git
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 159b3aec1d8eee2a02d394db013f9c2b9cc64878
 Navigate to the project folder:
 
 cd trivia-twist
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 159b3aec1d8eee2a02d394db013f9c2b9cc64878
 Open index.html in your browser or start a local server:
 
 live-server
@@ -51,13 +64,32 @@ View your final score at the end
 
 Click Start Again to replay
 
+<<<<<<< HEAD
 Folder Structure trivia-twist/ │-- assets/ │ ├── images/ # Optional icons or illustrations │ └── styles.css # Stylesheet │ │-- index.html # Main quiz page │-- script.js # JavaScript logic │-- README.md # Project documentation
+=======
+Folder Structure
+trivia-twist/
+│-- assets/
+│   ├── images/       # Optional icons or illustrations
+│   └── styles.css    # Stylesheet
+│
+│-- index.html        # Main quiz page
+│-- script.js         # JavaScript logic
+│-- README.md         # Project documentation
+>>>>>>> 159b3aec1d8eee2a02d394db013f9c2b9cc64878
 
 Future Improvements
 
 Add category selection (e.g., Science, Sports, History)
 
+<<<<<<< HEAD
 Add hints and 50/50 lifeline options
 
 Include sound effects and animations
 
+=======
+
+Add hints and 50/50 lifeline options
+
+Include sound effects and animations
+>>>>>>> 159b3aec1d8eee2a02d394db013f9c2b9cc64878
